@@ -1,0 +1,115 @@
+
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+
+body 
+{
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+}
+nav ul li
+{
+    margin: 0 60px;
+    color: white;
+    list-style: none;
+    padding: 8px 0;
+}
+
+article
+{
+    width: 800px;
+/*    text-align: center;*/
+    margin: auto;
+}
+  
+.roboto-regular 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .roboto-bold 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+  .roboto-regular-italic 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.cursivered
+{
+    font-style: italic;
+    color:red;
+}
+
+.makeGreen
+{
+    color:green
+}
+
+.makeBlue
+{
+    color:blue
+}
+
+article h1
+{
+    font-weight: 700;
+    font-size: 48px;
+    margin: 24px 0 4px 0;
+    background-color: burlywood;
+}
+
+article h2
+{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 16px 0 2px 0;
+}
+
+article h3
+{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 16px 0 0px 0;
+}
+
+article p 
+{
+    text-indent: 60px;
+}
+
+article h1 + p,
+article h2 + p,
+article h3 + p,
+ul + p,
+ol + p
+{
+    text-indent: 0px;
+}
+
+p + ul,
+p + ol,
+table
+{
+    margin: 24px 0;
+}
