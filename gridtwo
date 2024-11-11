@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gridtwo</title>
+    <link rel="stylesheet" href="stylegridtwo.css">
+</head>
+<body>
+    <div id="first">First</div>
+    <div id="second">Second</div>
+    <div id="third">Third</div>
+    <div id="fourth">Fourth</div>
+</body>
+</html>

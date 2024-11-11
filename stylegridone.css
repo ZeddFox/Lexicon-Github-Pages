@@ -1,0 +1,37 @@
+body
+{
+    font-size: 24px;
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#first
+{
+    color: red;
+}
+
+#second
+{
+    color: green;
+}
+
+#third
+{
+    color: blue;
+}
+
+#fourth
+{
+    color: yellow;
+}
+
+body > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

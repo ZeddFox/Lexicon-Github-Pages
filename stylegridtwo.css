@@ -1,0 +1,31 @@
+body
+{
+    display: grid;
+    grid-template-columns: 400px 600px;
+    grid-template-rows: 200px 300px 300px;
+    grid-auto-flow: dense;
+}
+
+body > *
+{
+    padding: 20px;
+    background-color: chocolate;
+    font-size: 3rem;
+}
+
+#first
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#second
+{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#third
+{
+    grid-row: 1 / 2;
+}

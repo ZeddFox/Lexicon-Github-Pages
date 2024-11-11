@@ -29,9 +29,11 @@ nav ul li
 
 article
 {
-    width: 800px;
+    width: 1200px;
 /*    text-align: center;*/
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
 }
   
 .roboto-regular 
@@ -146,4 +148,20 @@ div.card
     position: absolute;
     top: -30px;
     right: -30px;
+}
+
+#head-section
+{
+    grid-column: 1 / 7;
+}
+
+#first
+{
+    grid-column: 1 / 4;
+    grid-row: span 2;
+}
+
+#second
+{
+    grid-column: 4 / 7;
 }
